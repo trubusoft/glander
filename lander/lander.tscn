@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://ch2vxu76wnkrg"]
 
-[ext_resource type="Texture2D" uid="uid://blej4gb4sx7k" path="res://assets/godot.svg" id="1_8ugvx"]
+[ext_resource type="Texture2D" uid="uid://blej4gb4sx7k" path="res://sprites/godot.svg" id="1_8ugvx"]
 
 [node name="Lander" type="Node2D" unique_id=1258077887]
 
