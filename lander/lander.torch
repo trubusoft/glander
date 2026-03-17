@@ -407,7 +407,7 @@ pin_data = Array[Dictionary]([{
 "pin_name": &"PrintToLog",
 "type": 1,
 "flags": 2,
-"dv": true
+"dv": false
 }, {
 "pin_name": &"TextColor",
 "type": 20,
@@ -461,7 +461,7 @@ pin_data = Array[Dictionary]([{
 "pin_name": &"PrintToLog",
 "type": 1,
 "flags": 2,
-"dv": true
+"dv": false
 }, {
 "pin_name": &"TextColor",
 "type": 20,
@@ -921,7 +921,7 @@ pin_data = Array[Dictionary]([{
 "pin_name": &"PrintToLog",
 "type": 1,
 "flags": 2,
-"dv": true
+"dv": false
 }, {
 "pin_name": &"TextColor",
 "type": 20,
