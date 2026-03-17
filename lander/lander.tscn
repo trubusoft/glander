@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://ch2vxu76wnkrg"]
 
 [ext_resource type="Script" uid="uid://c0i37rgk7xd3m" path="res://lander/lander.torch" id="1_8lo0i"]
-[ext_resource type="Texture2D" uid="uid://blej4gb4sx7k" path="res://sprites/godot.svg" id="1_8ugvx"]
+[ext_resource type="Texture2D" uid="uid://p1x7d2esoj32" path="res://sprites/Lander.png" id="2_8lo0i"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8lo0i"]
 size = Vector2(128, 128)
@@ -11,7 +11,9 @@ motion_mode = 1
 script = ExtResource("1_8lo0i")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=394933493]
-texture = ExtResource("1_8ugvx")
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("2_8lo0i")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=592515176]
+scale = Vector2(0.28000045, 0.7599999)
 shape = SubResource("RectangleShape2D_8lo0i")
