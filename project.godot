@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="glander"
+run/main_scene="uid://bl6euq1ks8nab"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://sprites/godot.svg"
 
