@@ -7,6 +7,7 @@
 size = Vector2(128, 128)
 
 [node name="Lander" type="CharacterBody2D" unique_id=1692829604]
+motion_mode = 1
 script = ExtResource("1_8lo0i")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=394933493]
