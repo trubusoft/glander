@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bl6euq1ks8nab"]
+
+[ext_resource type="PackedScene" uid="uid://ch2vxu76wnkrg" path="res://lander/lander.tscn" id="1_f3sb7"]
+
+[node name="World" type="Node2D" unique_id=74666085]
+
+[node name="Lander" parent="." unique_id=1258077887 instance=ExtResource("1_f3sb7")]
+position = Vector2(571, 326)
